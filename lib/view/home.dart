@@ -69,12 +69,12 @@ class HomePage extends StatelessWidget{
                     );
                   }),
                   IconButton(
-                    onPressed: () => Get.toNamed('/card',
+                    onPressed: () => Get.toNamed('/cart',
                     arguments: "Home Page To Demo Page -> Passing arguments"),
                   icon: Icon(
                     Icons.arrow_forward_ios_rounded,
                     color: Colors.white,
-                  ))
+                  )),
                 ],
               ),
             ),
